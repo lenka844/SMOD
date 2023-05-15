@@ -1,0 +1,4 @@
+1.We can change the datafolder path in /configs/small/underwater/simsiam_ccrop_pretrain.py.
+2.We can tranfer the weight with SSLMarineOrgnismDET/self-weight_converter.py, using this file can make the SSLMarineOrgnismDET weight file transfer to downstream mmdetection.
+3.The downstream task is mmdetection
+4.When we tranferred the pretext weight to downstream weight file, we can change in SSLMarineOrgnismDET/mmdetection/configs/_base_/models/xxx.py to change the checkpoint file.
