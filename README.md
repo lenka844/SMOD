@@ -4,16 +4,24 @@ We release the code of Self-Supervised Marine Organism Detection from Underwater
 We design an Self-Supervised Marine Organism Detection framework for underwater images to detect organisms. We propose a set of underwater image augmentation strategies to enhance the quality of representation we learned, besides, we also propose a novel Underwater Attention module to explore effective underwater representation for marine organism detection. This code is based on the Simsiam and mmdetection codebase (v2.13.0).
 ![Image text](https://github.com/lenka844/SSLMarineOrgnismDET/blob/main/fig.png)
 ### Requirements
--Linux or macOS (Windows is in experimental support)
++Linux or macOS (Windows is in experimental support)
+
 -Python 3.8+
+
 -PyTorch 1.9+
+
 -CUDA 10.2+ (If you build PyTorch from source, CUDA 10.0 is also compatible)
+
 -GCC 5+
+
 -MMCV
+
 ### Datasets
 HabCam, TRASH ICRA-2019, UIEBD, RUIE, URPC2021.
 -Contact dataset provider, and download the datasets and annotations.
+
 -Put all images and annotation files to ./data folder.
+
 ### Running
 -To train a SSL Method on Pretext dataset, you can run the script:
 ```
